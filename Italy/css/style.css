@@ -1,0 +1,75 @@
+.navbar{
+	background-color: #f49f49;
+	font-size: 20px;
+}
+
+.carousel-item  { 
+     height: 100%;
+     overflow: hidden;
+  }
+
+  .carousel-inner > .carousel-item > img {
+     margin: 0 auto;
+    }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #f49f49;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #f49f49;
+}
+
+.carousel-inner {
+	height: 90vh;
+}
+
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-50%);
+	background: rgb(244, 159, 73, 0.6);
+	bottom: initial;
+}
+
+.card{
+	margin: 40px;
+}
+
+.row{
+	margin-top: 70px;
+}
+
+footer {
+	background-color: #f49f49;
+	color: white;
+	padding: 3%;
+	margin-top: 50px;
+}
+
+.fa-brands {
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.fa-brands:hover {
+	color: gray;
+}
+
+.logo:hover{
+	color: gray;
+}
