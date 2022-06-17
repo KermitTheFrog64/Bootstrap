@@ -73,3 +73,20 @@ footer {
 .logo:hover{
 	color: gray;
 }
+
+#info{
+	width: 40%;
+	background-color: rgb(249, 201, 152, 0.5);
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+}
+
+#security{
+	text-align: center;
+	color: green;
+}
+
+#tips{
+	text-align: center;
+}
